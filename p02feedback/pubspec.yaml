@@ -1,0 +1,23 @@
+name: asshignment2
+description: "Review app"
+publish_to: 'none' # Prevent accidental publishing
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.6.1 <4.0.0"  # I recommend using an explicit version range to avoid future SDK issues.
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  intl: ^0.17.0 # Add this line to include the intl package
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
